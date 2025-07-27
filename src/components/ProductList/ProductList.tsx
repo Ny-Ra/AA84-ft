@@ -1,4 +1,4 @@
-import styles from './ProductList.module.scss';
+import styles from '@/styles/ProductList.module.scss';
 import { sampleProducts } from '@/data/products';
 
 export default function ProductList() {

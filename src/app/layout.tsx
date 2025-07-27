@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from 'next/font/google';
 import { Header } from "@/components";
+import '@/styles/globals.scss';
 
 export const metadata: Metadata = {
   title: "AA84 | Road to MVP",
