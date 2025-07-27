@@ -1,0 +1,41 @@
+.header {
+  background-color: #ffffff;
+  height: 120px;
+  position: sticky;
+  top: 0px;
+  border-bottom: solid 1px #e0e0e0;
+  
+  .header_branding {
+    height: 50%;
+    width: 100%;
+  }
+
+  .header_product_categories {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    overflow-x: auto;
+
+    .category:first-child {
+        margin-left: 1rem;
+    }
+
+    .category {
+      background-color: #f3f4f6;
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      white-space: nowrap;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+
+      
+      &:hover {
+        background-color: #E5E4E2;
+      }
+    }
+  }
+}

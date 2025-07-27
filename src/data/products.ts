@@ -3,72 +3,72 @@ import { Product } from '@/types';
 export const sampleProducts: Product[] = [
   {
     id: 1,
-    name: "iPhone 15 Pro",
-    price: 1299.99,
-    description: "Le dernier smartphone Apple avec puce A17 Pro, appareil photo professionnel et design en titane.",
-    category: "Électronique"
+    name: "Big Burger Classic",
+    price: 8.90,
+    description: "Pain artisanal, steak haché 150g, cheddar, salade, tomate, oignon, sauce maison",
+    category: "Burgers"
   },
   {
     id: 2,
-    name: "T-shirt Cotton Bio",
-    price: 29.99,
-    description: "T-shirt en coton biologique, coupe moderne et confortable, disponible en plusieurs couleurs.",
-    category: "Mode"
+    name: "Chicken Crispy",
+    price: 7.50,
+    description: "Escalope de poulet panée croustillante, salade iceberg, tomate, mayo épicée",
+    category: "Burgers"
   },
   {
     id: 3,
-    name: "Aspirateur Robot",
-    price: 349.99,
-    description: "Aspirateur robot intelligent avec navigation laser et application mobile pour un nettoyage automatique.",
-    category: "Maison & Jardin"
+    name: "Frites Maison",
+    price: 3.50,
+    description: "Pommes de terre fraîches coupées et frites sur place, croustillantes à l'extérieur",
+    category: "Accompagnements"
   },
   {
     id: 4,
-    name: "Raquette de Tennis",
-    price: 159.99,
-    description: "Raquette de tennis professionnelle en graphite, parfaite pour les joueurs intermédiaires et avancés.",
-    category: "Sport & Loisirs"
+    name: "Nuggets de Poulet (6pcs)",
+    price: 5.90,
+    description: "Morceaux de blanc de poulet panés, servis avec sauce au choix",
+    category: "Accompagnements"
   },
   {
     id: 5,
-    name: "Le Petit Prince",
-    price: 12.99,
-    description: "Édition reliée du classique d'Antoine de Saint-Exupéry avec illustrations originales.",
-    category: "Livres"
+    name: "Coca-Cola 33cl",
+    price: 2.50,
+    description: "Boisson gazeuse rafraîchissante",
+    category: "Boissons"
   },
   {
     id: 6,
-    name: "Crème Hydratante",
-    price: 24.99,
-    description: "Crème hydratante anti-âge avec acide hyaluronique pour tous types de peau.",
-    category: "Beauté & Santé"
+    name: "Milkshake Vanille",
+    price: 4.20,
+    description: "Milkshake onctueux à la vanille avec chantilly",
+    category: "Boissons"
   },
   {
     id: 7,
-    name: "Pneus Michelin",
-    price: 89.99,
-    description: "Pneus haute performance pour voiture, excellente adhérence par tous temps.",
-    category: "Automobile"
+    name: "Salade César",
+    price: 6.90,
+    description: "Salade romaine, croûtons, parmesan, poulet grillé, sauce césar",
+    category: "Salades"
   },
   {
     id: 8,
-    name: "LEGO Creator Expert",
-    price: 79.99,
-    description: "Set LEGO avancé pour construire des modèles détaillés, recommandé pour 16 ans et plus.",
-    category: "Jouets & Enfants"
+    name: "Wrap Poulet Curry",
+    price: 7.20,
+    description: "Tortilla, émincé de poulet au curry, crudités, sauce yaourt",
+    category: "Wraps"
   },
   {
     id: 9,
-    name: "MacBook Air M3",
-    price: 1499.99,
-    description: "Ordinateur portable ultra-fin avec puce M3, écran Liquid Retina et autonomie exceptionnelle.",
-    category: "Électronique"
+    name: "Tiramisu Maison",
+    price: 4.50,
+    description: "Dessert italien traditionnel au mascarpone et café",
+    category: "Desserts"
   },
   {
     id: 10,
-    name: "Jeans Slim Fit",
-    price: 59.99,
-    description: "Jean en denim stretch confortable, coupe slim moderne avec finition premium.",
-    category: "Mode"
+    name: "Cookies Chocolat (3pcs)",
+    price: 3.20,
+    description: "Cookies moelleux aux pépites de chocolat, faits maison",
+    category: "Desserts"
   }
 ];
