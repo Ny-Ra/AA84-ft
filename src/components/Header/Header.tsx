@@ -1,9 +1,26 @@
+"use client";
+
 import styles from '@/styles/Header.module.scss';
-import { sampleProducts } from '@/data/products';
 import Image from 'next/image';
+import UserIcon from './UserIcon';
+import { usePathname } from 'next/navigation';
+import { sampleProducts } from '@/data/products';
 
 export default function Header() {
-  const categories = [...new Set(sampleProducts.map(product => product.category))];
+  const pathname = usePathname();
+  
+  const clientCategories = [
+    'Tableau de bord',
+    'Mes commandes',
+    'Mes favoris',
+    'Historique',
+    'Support',
+    'Notifications'
+  ];
+  
+  const productCategories = [...new Set(sampleProducts.map(product => product.category))];
+  
+  const categories = pathname === '/profile' ? clientCategories : productCategories;
 
   return (
     <header className={styles.header}>
@@ -26,15 +43,7 @@ export default function Header() {
               className={styles.icon}
             />
           </button>
-          <button className={styles.icon_button}>
-            <Image 
-              src="/user-icon.svg" 
-              alt="Compte utilisateur" 
-              width={24} 
-              height={24}
-              className={styles.icon}
-            />
-          </button>
+          <UserIcon />
         </div>
       </div>
     </header>
